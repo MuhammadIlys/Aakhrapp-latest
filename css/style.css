@@ -14,10 +14,13 @@
     color: var(--yellow);
 }
 
+.bg-yellow {
+    background-color: var(--yellow);
+}
+
 body {
     background-color: #000000;
 }
-
 
 /* //////// BUTTONS ///////// */
 .mylogin {
@@ -488,8 +491,8 @@ h4 {
 .card-body {
     padding-top: 5px !important;
     display: flex;
-        flex-direction: column;
-        justify-content: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card-title {
@@ -518,24 +521,25 @@ h4 {
     /* 20.513px */
 }
 
-.card-footer-text{
+.card-footer-text {
     color: #FFF;
-        font-family: Inter;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 20px;
-        /* 166.667% */
-        letter-spacing: 0.2px;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 166.667% */
+    letter-spacing: 0.2px;
 }
 
-ul{
+ul {
     list-style-type: disc;
     color: yellow;
     margin-left: 14px !important;
 }
+
 li {
-    font-size: 16px; 
+    font-size: 16px;
     padding: 5px;
 }
 
@@ -571,53 +575,109 @@ li {
     /* 133.333% */
     letter-spacing: 0.2px;
 }
-.custom-margin{
+
+.custom-margin {
     margin-top: 30px;
     /* margin-bottom: 50px; */
 }
 
-#myTab li button{
+#myTab li button {
     border: none;
 }
+
 /* /////////////////////////////////////////////////////////////////// */
 
-.mynavpills{
+.mynavpills {
     display: flex;
-        flex-direction: row;
-        justify-content: center;
+    flex-direction: row;
+    justify-content: center;
 }
-.mynavpills li{
+
+.mynavpills li {
     border-bottom: 1px solid #000;
 }
 
-.nav-pills li:hover a{
+.nav-pills li:hover a {
     color: #EFC700 !important;
 }
-.tab-title{
+
+.tab-title {
     color: #000;
-        font-family: Space Grotesk;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: -1px;
-        text-transform: uppercase;
+    font-family: Space Grotesk;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1px;
+    text-transform: uppercase;
 }
-.tab-desc{
+
+.tab-desc {
     color: #757575;
-        font-family: Inter;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 151.5%;
-        /* 27.27px */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.5%;
+    /* 27.27px */
 }
-.tabs{
+
+.tabs {
     padding: 100px;
 }
+
 .aakhr-arabic {
     padding-right: 250px;
 }
+
+
+/* ////////// COMING SOON /////////// */
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/comming-soon.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.coming-soon-image {
+    height: 50px;
+}
+
+.coming-soon-title {
+    color: #FFD400;
+    font-family: Space Grotesk;
+    font-size: 63px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 50px;
+}
+
+.back-ground {
+    background-color: #000;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.p-sm-0 {
+    padding: 30px 0px 30px 0px !important;
+}
+
+.custom-style {
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+}
+
 /* //////////////////////////////////////////////////////////////// */
 
 @media only screen and (max-width: 600px) {
@@ -626,39 +686,49 @@ li {
         width: auto;
         position: relative;
     }
-    .hadith{
+
+    .hadith {
         width: auto;
     }
-    #header-main{
+
+    #header-main {
         height: 213px !important;
     }
-    .header-logo{
+
+    .header-logo {
         height: auto;
         height: 100px;
         width: 160px;
         margin-top: 50px;
     }
-    .text-sm-center{
+
+    .text-sm-center {
         text-align: center;
     }
-    .legacy-one{
+
+    .legacy-one {
         right: 0px;
     }
-    .padding-one{
+
+    .padding-one {
         padding-left: 0px;
         text-align: center;
     }
-    .aakhr-arabic{
+
+    .aakhr-arabic {
         /* padding-right: 0px; */
     }
-    #malcom-main{
+
+    #malcom-main {
         /* position:relative; */
     }
-    .malcom-second{
+
+    .malcom-second {
         position: relative;
         left: 0px;
     }
-    .dis-padd{
+
+    .dis-padd {
         padding: 0px;
     }
 
@@ -678,12 +748,13 @@ li {
         letter-spacing: -1px;
         color: #000;
     }
-    .tabs{
+
+    .tabs {
         padding: 45px;
         text-align: center;
     }
 
-    .aakhr-arabic{
+    .aakhr-arabic {
         padding: 10px;
         text-align: center;
     }
@@ -701,11 +772,19 @@ li {
         padding: 50px;
     }
 
-    #cards{
+    #cards {
         padding: 10px !important;
     }
 
-    .card{
+    .card {
         margin-top: 20px;
+    }
+
+    .w-35 {
+        width: 85%;
+    }
+
+    .coming-soon-title {
+        text-align: center;
     }
 }
